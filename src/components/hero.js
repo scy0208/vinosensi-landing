@@ -6,7 +6,7 @@ export default function Hero() {
 
             {/* <!-- Hero Content --> */}
             <div class="container relative z-10 mx-auto flex flex-col items-center justify-center px-4">
-                <div class="animate-fade-in-down mb-6 text-center text-white">
+                <div class="animate-fade-in-down pt-10 mb-6 text-center text-white">
                     <h1 class="mb-4 text-5xl font-bold md:text-7xl">Elevate Your Winery Experience</h1>
                     <p class="mb-6 text-2xl">Engage your customers like never before with our AI-Powered Chatbot Solution.</p>
                     <a href="#contact" class="inline-block rounded-full bg-white px-8 py-4 font-semibold text-purple-600 transition-colors duration-300 hover:bg-purple-600 hover:text-white">Get Started</a>
