@@ -18,7 +18,10 @@ export default function Calls() {
         },
         body: JSON.stringify({
           email,
-          name: "",
+          phonenumber: "",
+          firstname: "",
+          lastname: "",
+          company: "",
           tier: "newsletter",
           message: ""
         }),

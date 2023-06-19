@@ -12,11 +12,14 @@ export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse
   ) {
-    const { email, name, tier, message } = req.body;
+    const { email, firstname, lastname, company, phonenumber, tier, message } = req.body;
     const currentTime = new Date();
     const Item = {
         email,
-        name,
+        firstname,
+        lastname,
+        company,
+        phonenumber,
         tier,
         message,
         time: currentTime.toISOString(),

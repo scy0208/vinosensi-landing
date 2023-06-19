@@ -5,7 +5,7 @@ const tiers = [
   {
     name: 'Basic',
     id: 'tier-basic',
-    href: '#',
+    href: '/contact?source=basic',
     priceMonthly: '$29',
     description: 'Quis suspendisse ut fermentum neque vivamus non tellus.',
     mostPopular: false,
@@ -13,7 +13,7 @@ const tiers = [
   {
     name: 'Essential',
     id: 'tier-essential',
-    href: '#',
+    href: '/contact?source=essential',
     priceMonthly: '$49',
     description: 'Quis eleifend a tincidunt pellentesque. A tempor in sed.',
     mostPopular: true,
@@ -21,7 +21,7 @@ const tiers = [
   {
     name: 'Premium',
     id: 'tier-premium',
-    href: '#',
+    href: '/contact?source=essential',
     priceMonthly: '$99',
     description: 'Orci volutpat ut sed sed neque, dui eget. Quis tristique non.',
     mostPopular: false,
@@ -105,7 +105,7 @@ export default function Prices() {
                   'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600'
                 )}
               >
-                Buy plan
+                Join Wait List
               </a>
               <ul role="list" className="mt-10 space-y-4 text-sm leading-6 text-gray-900">
                 {sections.map((section) => (
@@ -184,7 +184,7 @@ export default function Prices() {
                           'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600'
                         )}
                       >
-                        Buy plan
+                        Join Wait List
                       </a>
                     </td>
                   ))}
