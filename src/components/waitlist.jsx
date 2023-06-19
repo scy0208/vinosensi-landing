@@ -80,7 +80,7 @@ export default function WaitList({ tier }) {
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Join Our Waitlist</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-          The product is ready to launch soon, join our first tier user group for trail and improve the features
+          The product is ready to launch soon, join our first tier user group for free trail and help us improve the features
         </p>
       </div>
       <form className="mx-auto mt-16 max-w-xl sm:mt-20" onSubmit={handleSubmit(onSubmit)}>
