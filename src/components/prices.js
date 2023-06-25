@@ -14,7 +14,7 @@ const tiers = [
     name: 'Essential',
     id: 'tier-essential',
     href: '/contact?source=essential',
-    priceMonthly: '$49',
+    priceMonthly: '$99',
     description: 'Quis eleifend a tincidunt pellentesque. A tempor in sed.',
     mostPopular: true,
   },
@@ -22,7 +22,7 @@ const tiers = [
     name: 'Premium',
     id: 'tier-premium',
     href: '/contact?source=essential',
-    priceMonthly: '$99',
+    priceMonthly: '$199',
     description: 'Orci volutpat ut sed sed neque, dui eget. Quis tristique non.',
     mostPopular: false,
   },
@@ -31,11 +31,11 @@ const sections = [
   {
     name: 'Features',
     features: [
-      { name: 'AI Sommelier Integration', tiers: { Basic: true, Essential: true, Premium: true } },
+      { name: 'AI Sommelier Chatbot Integration', tiers: { Basic: true, Essential: true, Premium: true } },
       { name: 'Customer Preference Management', tiers: { Basic: false, Essential: true, Premium: true } },
       { name: 'CRM Ingetration', tiers: { Essential: true, Premium: true } },
-      { name: 'AI Customer Support', tiers: { Premium: true } },
       { name: 'Customized Tasting Event Planning', tiers: { Premium: true } },
+      { name: 'AI Customer Support', tiers: { Premium: true } },
     //   { name: 'Team members', tiers: { Essential: 'Up to 20 users', Premium: 'Up to 50 users' } },
     ],
   },
@@ -51,8 +51,8 @@ const sections = [
   {
     name: 'Support',
     features: [
-      { name: '24/7 online support', tiers: { Basic: true, Essential: true, Premium: true } },
-      { name: 'Quarterly product workshops', tiers: { Essential: true, Premium: true } },
+      { name: 'Online tech support', tiers: { Basic: true, Essential: true, Premium: true } },
+      { name: 'Quarterly product workshops', tiers: { Basic: true, Essential: true, Premium: true } },
       { name: 'Priority phone support', tiers: { Essential: true, Premium: true } },
       { name: '1:1 onboarding tour', tiers: { Premium: true } },
     ],

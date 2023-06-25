@@ -1,28 +1,34 @@
-import { GlobeAmericasIcon, ChatBubbleLeftRightIcon, AcademicCapIcon, FaceSmileIcon } from '@heroicons/react/24/outline'
+import { GlobeAmericasIcon, ChatBubbleLeftRightIcon, AcademicCapIcon, EnvelopeIcon, BuildingLibraryIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'AI Sommelier Integration',
+    name: 'Your Online AI Sommelier',
     description:
-      'Our chatbot guides customers to discover and specify their needs, and provides wine recommendations from your inventorys.',
+      'Easily integrated into your website, our AI chatbot guides customers to discover and specify their needs, and provides wine recommendations from your inventories.',
     icon: AcademicCapIcon,
   },
   {
-    name: 'Customer Relationship Management',
+    name: 'Your AI Branding Storyteller',
     description:
-      'Captur, accumulate and analyze customers preferences, browsing, and purchase history to generate personalized marketing campaigns in personalized emails.',
-    icon: FaceSmileIcon,
+      'Our AI chatbot assimilates your branding story, your winery history, and founding family background, delivering them to your customers',
+    icon: BuildingLibraryIcon,
   },
   {
-    name: 'Customized Events Planning',
+    name: 'Your Customer Relationship Manager',
     description:
-      'Planning customized tasting, touring, or other social events by grouping user preferences and market them in a personalized.',
+      'Our platform captures, accumulates and analyzes customers chating, browsing, and purchase history to generate personalized marketing email campaigns.',
+    icon: EnvelopeIcon,
+  },
+  {
+    name: 'Your Customer Events Planner',
+    description:
+      'Our platform prodives information for planning customized tasting, touring, or other social events in a personalized way by grouping customer preferences.',
     icon: GlobeAmericasIcon,
   },
   {
-    name: 'Customer Supporting Integration',
+    name: 'Your End to End Customer Supporter',
     description:
-      'Integrate with inventory, shipping, order tracking and feedback to provide end to end customer supporting',
+      'Our platform integrates with inventory, shipping, order tracking into the Chatbot to provide end to end customer supporting',
     icon: ChatBubbleLeftRightIcon,
   },
 ]
@@ -37,7 +43,7 @@ export default function Features() {
             Everything you need to interact with your online customers
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            VinoSensi enhance your winery experiences through AI-driven wine curation, in-depth customer analysis, tailor-made events, and comprehensive support features.
+          VinoSensei elevates your winery experiences with AI-driven wine curation, thorough customer analysis, bespoke events, and comprehensive support features.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
