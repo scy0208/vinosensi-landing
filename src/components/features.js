@@ -1,34 +1,40 @@
-import { GlobeAmericasIcon, ChatBubbleLeftRightIcon, AcademicCapIcon, EnvelopeIcon, BuildingLibraryIcon } from '@heroicons/react/24/outline'
+import { GlobeAmericasIcon, ChatBubbleLeftRightIcon, AcademicCapIcon, EnvelopeIcon, BuildingLibraryIcon, ClockIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'Your Online AI Sommelier',
+    name: 'Online AI Sommelier',
     description:
       'Easily integrated into your website, our AI chatbot guides customers to discover and specify their needs, and provides wine recommendations from your inventories.',
     icon: AcademicCapIcon,
   },
   {
-    name: 'Your AI Branding Storyteller',
+    name: 'AI Sales Agent',
     description:
-      'Our AI chatbot assimilates your branding story, your winery history, and founding family background, delivering them to your customers',
+      'Our AI chatbot in your website assimilates extensive knowledge about your winery\'s unique history, story, offering and delivering them to your customers.',
     icon: BuildingLibraryIcon,
   },
   {
-    name: 'Your Email Marketing Content Provider',
+    name: 'AI Marketing Content Creator',
     description:
-      'Our platform captures, accumulates and analyzes customers chatting, browsing, and purchase history to generate personalized email marketing content.',
+      'Our platform captures, accumulates and analyzes customers chatting, browsing, and purchase history to generate personalized email marketing content and integrate with your marketing tool.',
     icon: EnvelopeIcon,
   },
   {
-    name: 'Your Customer Events Planner',
+    name: 'AI-Optimized Wine Tasting',
     description:
-      'Our platform prodives information for planning customized tasting, touring, or other social events in a personalized way by grouping customer preferences.',
+      'Booking visiting and wine tasting by directly chatting with our AI Chatbot in your website.',
+    icon: ClockIcon,
+  },
+  {
+    name: 'AI Wine Club Customer Manager',
+    description:
+      'Our platform optimizes your wine club member retention through member preference tracking, feedback collection.',
     icon: GlobeAmericasIcon,
   },
   {
-    name: 'Your End to End Customer Supporter',
+    name: 'End to End AI Customer Supporter',
     description:
-      'Our platform integrates with inventory, shipping, order tracking into the Chatbot to provide end to end customer supporting',
+      'Our AI Chatbot integrates with your inventory, shipping, order tracking to provide end to end customer supporting.',
     icon: ChatBubbleLeftRightIcon,
   },
 ]
@@ -46,8 +52,8 @@ export default function Features() {
           VinoSensei elevates your winery experiences with AI-driven wine curation, thorough customer analysis, bespoke events, and comprehensive support features.
           </p>
         </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+        <div className="mx-auto mt-16 max-w-xl sm:mt-20 lg:mt-24 lg:max-w-6xl">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-base font-semibold leading-7 text-gray-900">
