@@ -14,9 +14,9 @@ const features = [
     icon: BuildingLibraryIcon,
   },
   {
-    name: 'Your Customer Relationship Manager',
+    name: 'Your Email Marketing Content Provider',
     description:
-      'Our platform captures, accumulates and analyzes customers chating, browsing, and purchase history to generate personalized marketing email campaigns.',
+      'Our platform captures, accumulates and analyzes customers chatting, browsing, and purchase history to generate personalized email marketing content.',
     icon: EnvelopeIcon,
   },
   {
