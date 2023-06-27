@@ -20,7 +20,7 @@ const features = [
     icon: EnvelopeIcon,
   },
   {
-    name: 'AI-Optimized Wine Tasting',
+    name: 'AI-Optimized Wine Tasting Scheduling',
     description:
       'Booking visiting and wine tasting by directly chatting with our AI Chatbot in your website.',
     icon: ClockIcon,
