@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 
 import  Header  from '@/components/header'
 import  Hero  from '@/components/hero'
+import  HeadFeature  from '@/components/headFeature'
+import  SecondFeature  from '@/components/secondFeature'
 import  Features  from '@/components/features'
 import  Calls  from '@/components/calls'
 import  Footer  from '@/components/footer'
@@ -17,6 +19,8 @@ export default function Home() {
     >
       <Header/>
       <Hero/>
+      <SecondFeature/>
+      <HeadFeature/>
       <Features/>
       <Prices/>
       <Calls/>

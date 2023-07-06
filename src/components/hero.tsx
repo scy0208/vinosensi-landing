@@ -1,9 +1,26 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useEffect, useRef } from "react";
 
 export default function Hero() {
+    const videoRef = useRef<HTMLVideoElement>(null);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            // Ensure videoRef and videoRef.current are defined
+            if (videoRef && videoRef.current) {
+                videoRef.current.play();
+            }
+        }, 5000);
+
+        // Clean up timer on unmount
+        return () => clearTimeout(timer);
+    }, []);
+
+
+
     return (
-        <section className="relative h-auto bg-cover bg-center pb-8 pt-16" style={{backgroundImage: "url(" +"https://cdn.midjourney.com/509935f0-1faf-418a-bd17-777a2dcf85a1/0_0.png" + ")"}}>
+        <section className="relative h-auto bg-cover bg-center pb-8 pt-16" style={{backgroundImage: "url(" +"https://d2aaddunp29031.cloudfront.net/bg.png" + ")"}}>
             {/* <!-- Gradient Overlay --> */}
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 opacity-75"></div>
 
@@ -16,8 +33,22 @@ export default function Hero() {
                 </div>
 
                 {/* <!-- Product Screenshot --> */}
-                <div className="mt-8 w-full rounded-lg md:w-2/3 lg:w-1/2 shadow-lg">
-                    <Image src="https://i.imgur.com/65KQ2sl.png" width={1000} height={1000} alt="Product Screenshot" className="shadow-lg rounded-lg"/>
+                <div className="mt-8 w-full rounded-lg md:w-2/3 shadow-lg">
+                    {/* <Image src="https://webmobilefirst-screencasts.s3.eu-west-3.amazonaws.com/vs11Z6-7tQ.gif" width={1000} height={1000} alt="Product Screenshot" className="shadow-lg rounded-lg"/> */}
+                    <video
+                            ref={videoRef}
+                            width="300"
+                            loop
+                            muted
+                            style={{
+                                position: "relative",
+                                width: "100%",
+                                left: 0,
+                                top: 0,
+                              }}>
+                            <source src="https://d2aaddunp29031.cloudfront.net/herodemo4k.mp4" type="video/mp4"/>
+                    </video>
+                
                 </div>
             </div>
         </section>
