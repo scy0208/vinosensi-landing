@@ -106,7 +106,7 @@ export default function Prices() {
                   'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600'
                 )}
               >
-                Join Wait List
+                Purchase
               </a>
               <ul role="list" className="mt-10 space-y-4 text-sm leading-6 text-gray-900">
                 {sections.map((section) => (
@@ -185,7 +185,7 @@ export default function Prices() {
                           'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600'
                         )}
                       >
-                        Join Wait List
+                        Purchase
                       </a>
                     </td>
                   ))}

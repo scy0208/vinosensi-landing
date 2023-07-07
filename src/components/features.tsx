@@ -8,7 +8,7 @@ const features = [
     icon: AcademicCapIcon,
   },
   {
-    name: 'AI Sales Agent',
+    name: 'AI Agent',
     description:
       'Our AI chatbot in your website assimilates extensive knowledge about your winery\'s unique history, story, offering and delivering them to your customers.',
     icon: BuildingLibraryIcon,
