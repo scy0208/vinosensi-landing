@@ -5,6 +5,7 @@ import  Header  from '@/components/header'
 import  Hero  from '@/components/hero'
 import  HeadFeature  from '@/components/headFeature'
 import  SecondFeature  from '@/components/secondFeature'
+import  ThirdFeature  from '@/components/thirdFeature'
 import  Features  from '@/components/features'
 import  Calls  from '@/components/calls'
 import  Footer  from '@/components/footer'
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero/>
       <SecondFeature/>
       <HeadFeature/>
+      <ThirdFeature/>
       <Features/>
       <Prices/>
       <Calls/>
