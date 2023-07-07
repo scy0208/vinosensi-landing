@@ -1,11 +1,11 @@
-import { AcademicCapIcon } from '@heroicons/react/20/solid'
+import { GlobeAmericasIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
     name: 'Multi-language AI system',
     description:
       'Our AI Agent is powered by OpenAI\'s cutting-edge GPT system, making it an exceptional tool for global wineries. With support for over 95 languages, it possesses the ability to seamlessly translate your winery and wine insights, ensuring that the rich information reaches users in the language they are most comfortable with. This greatly enhances communication and understanding, and opens doors to a wider audience, bridging gaps between cultures and promoting the universal appreciation of fine wines.',
-    icon: AcademicCapIcon,
+    icon: GlobeAmericasIcon,
   },
 ]
 
@@ -16,7 +16,7 @@ export default function Example() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">Delivering wisdom</h2>
+              <h2 className="text-base font-semibold leading-7 text-indigo-600">Bridging Borders</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Your International Brand Ambassador</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Our AI Agent supports over 95 languages and help you enagage customers all over the world
