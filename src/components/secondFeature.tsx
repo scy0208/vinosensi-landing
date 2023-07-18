@@ -1,11 +1,23 @@
-import { AcademicCapIcon } from '@heroicons/react/20/solid'
+import { ShoppingCartIcon, AcademicCapIcon, ClipboardDocumentListIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Cutting-Edge Wine AI Model',
+    name: 'Wine Recommendation',
     description:
-      'Designed by a team of renowned sommeliers, data scientists, and machine learning experts, the Cutting-Edge Wine AI Model employs state-of-the-art algorithms to decipher the complex characteristics of wines. By ingesting vast amounts of historical and sensory data, it possesses an unrivaled ability to accurately predict and evaluate various aspects of a wine\'s quality, including flavor profiles, ageability, and food pairing recommendations. ',
+      'Asking smart questions to understand user preference and recommend the most suitable wine from your inventory.',
     icon: AcademicCapIcon,
+  },
+  {
+    name: 'Wine Comparasion',
+    description:
+      'Giving accurate and detailed Comparasion between different wines and wines in different years from your inventory.',
+    icon: ShoppingCartIcon,
+  },
+  {
+    name: 'Tasting Note Generating',
+    description:
+      'Utilizing your data and our AI\'s extensive wine knowledge, we provide in-depth tasting notes for wines from your inventory.',
+    icon: ClipboardDocumentListIcon,
   },
 ]
 
@@ -35,7 +47,7 @@ export default function Example() {
             </div>
           </div>
           <img
-            src="https://d2aaddunp29031.cloudfront.net/feature5.png"
+            src="https://d2aaddunp29031.cloudfront.net/ai-som.png"
             alt="Product screenshot"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}

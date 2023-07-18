@@ -29,7 +29,7 @@ export default function Hero() {
                 <div className="animate-fade-in-down pt-10 mb-6 text-center text-white">
                     <h1 className="mb-4 text-5xl font-bold md:text-7xl">Elevate Your Winery Experience</h1>
                     <p className="mb-6 text-2xl">Engage your customers like never before with our AI-Powered Chatbot Solution.</p>
-                    <Link href="https://calendly.com/vinosensei/30min" className="inline-block rounded-full bg-white px-8 py-4 font-semibold text-purple-600 transition-colors duration-300 hover:bg-purple-600 hover:text-white">Request A Demo</Link>
+                    <Link href="https://demo.vinosensei.com/" className="inline-block rounded-full bg-white px-8 py-4 font-semibold text-purple-600 transition-colors duration-300 hover:bg-purple-600 hover:text-white">Try Our Demo</Link>
                 </div>
 
                 {/* <!-- Product Screenshot --> */}
@@ -46,7 +46,7 @@ export default function Hero() {
                                 left: 0,
                                 top: 0,
                               }}>
-                            <source src="https://d2aaddunp29031.cloudfront.net/herodemo4k.mp4" type="video/mp4"/>
+                            <source src="https://d2aaddunp29031.cloudfront.net/hero-new.mp4" type="video/mp4"/>
                     </video>
                 
                 </div>

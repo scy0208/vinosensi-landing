@@ -31,12 +31,13 @@ const sections = [
   {
     name: 'Features',
     features: [
-      { name: 'AI Sommelier', tiers: { Basic: true, Essential: true, Premium: true } },
       { name: 'Winery Digital Agent', tiers: { Basic: true, Essential: true, Premium: true } },
+      { name: 'AI Sommelier', tiers: { Basic: true, Essential: true, Premium: true } },
+      { name: 'International Language Support', tiers: { Basic: true, Essential: true, Premium: true } },
+      { name: 'Tasting Room Scheduling & Event Booking', tiers: { Basic: false, Essential: true, Premium: true } },
       { name: 'Customer Preference Management', tiers: { Basic: false, Essential: true, Premium: true } },
-      { name: 'Personalized Marketing Content Providing', tiers: { Essential: true, Premium: true } },
-      { name: 'Customized Tasting Event Scheduling', tiers: { Premium: true } },
-      { name: 'AI Customer Support', tiers: { Premium: true } },
+      { name: 'Personalized Marketing Content Providing', tiers: { Essential: false, Premium: true } },
+      { name: 'End to End Customer Support with Existing Systems Integration', tiers: { Premium: true } },
     //   { name: 'Team members', tiers: { Essential: 'Up to 20 users', Premium: 'Up to 50 users' } },
     ],
   },
@@ -49,15 +50,15 @@ const sections = [
 //       { name: 'Custom report builder', tiers: { Premium: true } },
 //     ],
 //   },
-  {
-    name: 'Support',
-    features: [
-      { name: 'Online tech support', tiers: { Basic: true, Essential: true, Premium: true } },
-      { name: 'Quarterly product workshops', tiers: { Basic: true, Essential: true, Premium: true } },
-      { name: 'Priority phone support', tiers: { Essential: true, Premium: true } },
-      { name: '1:1 onboarding tour', tiers: { Premium: true } },
-    ],
-  },
+  // {
+  //   name: 'Support',
+  //   features: [
+  //     { name: 'Online tech support', tiers: { Basic: true, Essential: true, Premium: true } },
+  //     { name: 'Quarterly product workshops', tiers: { Basic: true, Essential: true, Premium: true } },
+  //     { name: 'Priority phone support', tiers: { Essential: true, Premium: true } },
+  //     { name: '1:1 onboarding tour', tiers: { Premium: true } },
+  //   ],
+  // },
 ]
 
 function classNames(...classes) {

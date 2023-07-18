@@ -20,10 +20,9 @@ export default function Home() {
     >
       <Header/>
       <Hero/>
-      <SecondFeature/>
       <HeadFeature/>
+      <SecondFeature/>
       <ThirdFeature/>
-      <Features/>
       <Prices/>
       <Calls/>
       <Footer/>

@@ -1,11 +1,35 @@
-import { CloudArrowUpIcon } from '@heroicons/react/20/solid'
+import { FilmIcon, MegaphoneIcon, CalendarDaysIcon, GiftIcon, TruckIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Digest latest data',
+    name: 'Wine Club Manager',
     description:
-      'Our AI agent analyzes website content, providing concise summaries to answer questions. Using advanced algorithms, it condenses key information into impactful summaries, ensuring precision and clarity. Users gain a holistic understanding, making informed decisions and navigating effortlessly. This streamlines the user experience, saving time. With our AI agent, your website becomes a valuable source of knowledge, engaging visitors and staying competitive.',
-    icon: CloudArrowUpIcon,
+      'Explaining Wine club term, price, service, offering and benefit',
+    icon: GiftIcon,
+  },
+  {
+    name: 'Visiting Guider',
+    description:
+      'Automating Tastings room booking & event booking',
+    icon: CalendarDaysIcon,
+  },
+  {
+    name: 'Operation Information Deliver',
+    description:
+      'Answering questions about winery, vineyard, tastings room location & hour',
+    icon: MegaphoneIcon,
+  },
+  {
+    name: 'Branding Storyteller',
+    description:
+      'Delivering story about founders, winery, vineyards, winemaking process',
+    icon: FilmIcon,
+  },
+  {
+    name: 'eCommerce Helper',
+    description:
+      'Wine introduction, comparison, shipment policy, restriction, carrier information',
+    icon: TruckIcon,
   },
 ]
 
@@ -19,7 +43,7 @@ export default function HeadFeature() {
               <h2 className="text-base font-semibold leading-7 text-indigo-600">Answering faster</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Your Digital Agent</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Our AI agent is here to provide immediate answer to any winery questions for you.
+              Armed with all your winery information, our AI agent is here to provide immediate answers to any of your winery-related questions.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
@@ -36,7 +60,7 @@ export default function HeadFeature() {
           </div>
           <div className="flex items-start justify-end lg:order-first">
             <img
-              src="https://d2aaddunp29031.cloudfront.net/feature2.png"
+              src="https://d2aaddunp29031.cloudfront.net/digit-agent.png"
               alt="Product screenshot"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
               width={2432}
