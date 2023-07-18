@@ -36,7 +36,7 @@ export default function ThirdFeature() {
           </div>
           <div className="flex items-start justify-end lg:order-first">
             <img
-              src="https://d2aaddunp29031.cloudfront.net/feature4.png"
+              src="https://d2aaddunp29031.cloudfront.net/international.png"
               alt="Product screenshot"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
               width={2432}
